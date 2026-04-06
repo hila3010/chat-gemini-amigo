@@ -60,11 +60,27 @@ python app.py
 ## Funcionalidad
 
 - Chat interactivo desde consola  
+- Interfaz web utilizando Gradio  
 - Respuestas generadas por Gemini  
 - Comportamiento tipo “amigo”  
 - Ajuste del estilo mediante prompt engineering  
 
 ---
+
+## Interfaz web
+
+Además de la versión en consola, se desarrolló una interfaz web utilizando Gradio, lo que permite interactuar con el agente de forma más visual y amigable.
+
+Para ejecutar la versión web:
+
+```bash
+python gradio_app.py
+```
+---
+
+Esto levanta un servidor local accesible desde el navegador.
+
+Nota: Debido a los límites del plan gratuito de la API, puede no responder si se alcanza el límite de solicitudes.
 
 ## Diseño del agente
 
